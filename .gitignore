@@ -1,0 +1,33 @@
+# --- OS artifacts ---
+.DS_Store
+Thumbs.db
+
+# --- KiCad project/user settings ---
+*.kicad_pro.user
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~              # editor backups
+_autosave-*     # KiCad autosaves
+*.tmp
+*.bak
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*~.lck
+\#auto_saved_files#
+
+# --- Netlists & autorouter files (if you re-export on build) ---
+*.net
+*.dsn
+*.ses
+
+# --- BOM / export files (if you generate CSV/XML in-repo) ---
+*.xml
+*.csv
+
+# --- Fabrication outputs (Gerbers, drill, PDFs) ---
+*.gbr
+*.drl
+*.pdf
