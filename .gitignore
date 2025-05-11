@@ -18,6 +18,15 @@ fp-info-cache
 *~.lck
 \#auto_saved_files#
 
+# KiCad backup folder
+*-backups/
+
+# KiCad autosave files
+_autosave-*
+
+# KiCad lock files
+*.lck
+
 # --- Netlists & autorouter files (if you re-export on build) ---
 *.net
 *.dsn
