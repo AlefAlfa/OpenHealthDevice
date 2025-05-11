@@ -6,7 +6,6 @@ Thumbs.db
 *.kicad_pro.user
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.kicad_prl
 *.sch-bak
 *~              # editor backups
 _autosave-*     # KiCad autosaves
